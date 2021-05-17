@@ -1,3 +1,15 @@
+### 1.0.1
+* Updated dependencies to **FairBid 3.14.0** (Official changelog: [Android](https://developer.fyber.com/hc/en-us/articles/360010205178-FairBid-Android-SDK-Changelog), [iOS](https://developer.fyber.com/hc/en-us/articles/360010021878-FairBid-iOS-SDK-Changelog))
+  * Deprecated `PrivacySettings.clearGDPRConsent()`
+
+### 1.0.0
+* **Breaking change:** `Null-safety` support
+* Updated dependencies to **FairBid 3.13.0** (Official changelog: [Android](https://developer.fyber.com/hc/en-us/articles/360010205178-FairBid-Android-SDK-Changelog), [iOS](https://developer.fyber.com/hc/en-us/articles/360010021878-FairBid-iOS-SDK-Changelog))
+
+### 0.11.2
+* Updated dependencies to **FairBid 3.12.0** (Official changelog: [Android](https://developer.fyber.com/hc/en-us/articles/360010205178-FairBid-Android-SDK-Changelog), [iOS](https://developer.fyber.com/hc/en-us/articles/360010021878-FairBid-iOS-SDK-Changelog))
+* Fixed [crash on iOS](https://github.com/ukasz123/fairbid_flutter/pull/21) when attempting to show full screen ads.
+
 ### 0.11.1
 * Added new parameter for starting `Option` to give fine grained control over SDK's logging on iOS.
 
